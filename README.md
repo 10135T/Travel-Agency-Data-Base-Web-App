@@ -1,0 +1,2 @@
+I have developed an interface for managing data within a travel agency. The web application provides features such as adding/deleting/modifying data for tourists, excursions, guide lists, destinations, and transportation. The database functionality is implemented using PHPMyAdmin.
+Also, I have included a 'Statistics' section, that provides useful data for the travel agency, such as, most popular destinations, most loyal customers (useful for providing certain discounts), and much more.
