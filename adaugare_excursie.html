@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adaugare_turist.css">
+    <title>Adaugare excursie</title>
+</head>
+<body>
+
+    <h1>Adăugare Excursie</h1>
+
+    <!-- Formular pentru adăugare-->
+    <form action="adaugare_date_excursie.php" method="post">
+
+        <label for="data_plecare">Data Plecare:</label>
+        <input type="date" name="data_plecare" required><br>
+
+        <label for="data_intoarcere">Data Întoarcere:</label>
+        <input type="date" name="data_intoarcere" required><br>
+
+        <label for="pret">Preț:</label>
+        <input type="text" name="pret" pattern="-?[0-9]+(\.[0-9]+)?" title="Introduceți numere reale" required><br>
+
+
+        <input type="submit" value="Adauga Excursie">
+    </form>
+
+    <h1>Interogare Baza de Date</h1>
+
+    <!-- Formular pentru interogarea bazei de date -->
+    <form action="interogare_date_excursii.php" method="post">
+        <input type="submit" value="Interogare Baza de Date">
+    </form>
+
+</body>
+</html>

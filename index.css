@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1534371020656-6b85825f2b1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center fixed no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Adăugați un fundal semi-transparent */
+    padding: 10px;
+    border-radius: 10px; /* Adăugați colțuri rotunjite */
+}
+
+
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}

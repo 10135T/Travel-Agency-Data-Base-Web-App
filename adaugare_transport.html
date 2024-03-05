@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adaugare_turist.css">
+    <title>Adaugare transport</title>
+</head>
+<body>
+
+    <h1>Adăugare Transport</h1>
+
+    <!-- Formular pentru adăugarea de bolnavi -->
+    <form action="adaugare_date_transport.php" method="post">
+
+        <label for="nr_locuri">Număr Locuri:</label>
+        <input type="number" name="nr_locuri" required><br>
+
+        <label for="pret">Preț:</label>
+        <input type="text" name="pret" pattern="-?[0-9]+(\.[0-9]+)?" title="Introduceți numere reale" required><br>
+
+
+        <input type="submit" value="Adauga Transport">
+    </form>
+
+    <h1>Interogare Baza de Date</h1>
+
+    <!-- Formular pentru interogarea bazei de date -->
+    <form action="interogare_date_transport.php" method="post">
+        <input type="submit" value="Interogare Baza de Date">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* style_result.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; /* Gri deschis pentru fundal */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: #333; /* Culoare de text pentru antet */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Gri deschis pentru marginile celulelor */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #333; /* Culoare de text pentru celule */
+}
+
+th {
+    background-color: #f2f2f2; /* Gri deschis pentru antetele tabelului */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Gri deschis pentru liniile pare */
+}
+
+tr:nth-child(odd) {
+    background-color: #e6e6e6; /* O nuanta de gri mai deschisa pentru liniile impare */
+}
